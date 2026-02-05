@@ -37,7 +37,7 @@ except ImportError:
         return base + "2!"
 
 
-VAULT_FILE = "vault.dat"
+VAULT_FILE = "/data/vault.dat"
 SALT_FILE = "vault.salt"
 
 
@@ -459,3 +459,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
